@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: getty-images.api.streamdata.gallery
+title: Streamdata Gallery Getty Images
+url: getty-images.streamdata.gallery
 tag: Getty Images
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: getty-images
 github_branch: master
 collections:
