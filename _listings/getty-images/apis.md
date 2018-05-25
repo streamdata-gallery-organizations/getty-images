@@ -1,25 +1,22 @@
 ---
 name: Getty Images
 x-slug: getty-images
-description: Getty Images, Inc. is an American stock photo agency, based in Seattle,
-  Washington, United States. It is a supplier of stock images for business and consumers
-  with an archive of 80 million still images and illustrations and more than 50,000
-  hours of stock film footage. It targets three markets&mdash;creative professionals
-  (advertising and graphic design), the media (print and online publishing), and corporate
-  (in-house design, marketing and communication departments).
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+description: Find high resolution royalty-free images, editorial stock photos, vector
+  art, video footage clips and stock music licensing at the richest image search photo
+  library online.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "1939"
 tags: Getty Images
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-25"
+modified: "2018-05-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Getty Images Search Artist Images
   x-api-slug: getty-images
   description: Search for images by a photographer
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/artists/images
   tags: Images,Artists
@@ -31,7 +28,7 @@ apis:
 - name: Getty Images Search Artist ImaVideosges
   x-api-slug: getty-images
   description: Search for videos by a photographer
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/artists/videos
   tags: Images,Artists,Videos
@@ -52,7 +49,7 @@ apis:
     channel.\r\nPartners who would like to start using the Asset Changes API again
     after a period of dormancy should contact their sales\r\nrepresentative to be
     set up again."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/asset-changes/change-sets
   tags: Images,Changes
@@ -68,7 +65,7 @@ apis:
     need an API key and a [Resource Owner Grant](http://developers.gettyimages.com/en/authorization-faq.html)
     access token to use this resource.\r\nPlease see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
     page for more information on how to sign up for an API key."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/asset-changes/change-sets/{change-set-id}
   tags: Images,Changes
@@ -88,7 +85,7 @@ apis:
     that have been queried in the last 120 days will be included in the list of channels.\r\nPartners
     who have a channel that has been removed should contact their sales representative
     to be set up again."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/asset-changes/channels
   tags: Images,Changes
@@ -106,7 +103,7 @@ apis:
     page for more information on how to sign up for an API key. \r\n\r\n_Note_: In
     the event of a successful query (response code 200) there will be nothing in the
     response body."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/asset-registrations
   tags: Images,Registrations
@@ -121,7 +118,7 @@ apis:
     an API key and a [Resource Owner Grant](http://developers.gettyimages.com/en/authorization-faq.html)
     access token to use this resource. Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
     page for more information on how to sign up for an API key."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/boards
   tags: Images,Boards
@@ -142,7 +139,7 @@ apis:
     of the client to ensure that it is properly formatted and guards against malicious
     data (for example cross-site scripting attacks or HTML injection) when accessing
     the data.*"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/boards
   tags: Images,Boards
@@ -157,7 +154,7 @@ apis:
     key and a [Resource Owner Grant](http://developers.gettyimages.com/en/authorization-faq.html)
     access token to use this resource. Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
     page for more information on how to sign up for an API key."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/boards/{board_id}
   tags: Images,Boards
@@ -174,7 +171,7 @@ apis:
     API key and a [Resource Owner Grant](http://developers.gettyimages.com/en/authorization-faq.html)
     access token to use this resource. Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
     page for more information on how to sign up for an API key."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/boards/{board_id}
   tags: Images,Boards
@@ -195,7 +192,7 @@ apis:
     of the client to ensure that it is properly formatted and guards against malicious
     data (for example cross-site scripting attacks or HTML injection) when accessing
     the data.*"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/boards/{board_id}
   tags: Images,Boards
@@ -210,7 +207,7 @@ apis:
     key and a [Resource Owner Grant](http://developers.gettyimages.com/en/authorization-faq.html)
     access token to use this resource. Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
     page for more information on how to sign up for an API key."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/boards/{board_id}/assets
   tags: Images,Boards
@@ -227,7 +224,7 @@ apis:
     and a [Resource Owner Grant](http://developers.gettyimages.com/en/authorization-faq.html)
     access token to use this resource. Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
     page for more information on how to sign up for an API key."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/boards/{board_id}/assets
   tags: Images,Boards
@@ -242,7 +239,7 @@ apis:
     and a [Resource Owner Grant](http://developers.gettyimages.com/en/authorization-faq.html)
     access token to use this resource. Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
     page for more information on how to sign up for an API key."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/boards/{board_id}/assets/{asset_id}
   tags: Images,Boards
@@ -259,7 +256,7 @@ apis:
     a [Resource Owner Grant](http://developers.gettyimages.com/en/authorization-faq.html)
     access token to use this resource.\r\nPlease see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
     page for more information on how to sign up for an API key."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/boards/{board_id}/assets/{asset_id}
   tags: Images,Boards
@@ -276,7 +273,7 @@ apis:
     need an API key and a [Resource Owner Grant](http://developers.gettyimages.com/en/authorization-faq.html)
     access token to use this resource. Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
     page for more information on how to sign up for an API key."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/boards/{board_id}/comments
   tags: Images,Boards,Comments
@@ -293,7 +290,7 @@ apis:
     [Resource Owner Grant](http://developers.gettyimages.com/en/authorization-faq.html)
     access token to use this resource. Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
     page for more information on how to sign up for an API key."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/boards/{board_id}/comments
   tags: Images,Boards,Comments
@@ -308,7 +305,7 @@ apis:
     and a [Resource Owner Grant](http://developers.gettyimages.com/en/authorization-faq.html)
     access token to use this resource. Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
     page for more information on how to sign up for an API key."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/boards/{board_id}/comments/{comment_id}
   tags: Images,Boards,Comments
@@ -324,7 +321,7 @@ apis:
     http://www.gettyimages.com/creative-images/collections).\r\n\r\nYou'll need an
     API key and access token to use this resource. Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
     page for more information on how to sign up for an API key."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/collections
   tags: Images,Collections
@@ -339,7 +336,7 @@ apis:
     letter ISO abbreviation and three letter ISO abbreviation.\r\n\r\nYou'll need
     an API key and access token to use this resource. Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
     page for more information on how to sign up for an API key."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/countries
   tags: Images,Countries
@@ -358,7 +355,7 @@ apis:
     a license to use, \r\nyou need to also include an authorization token in the header
     of your request. \r\nPlease consult our [Authorization FAQ](http://developers.gettyimages.com/en/authorization-faq.html)
     for more information on authorization tokens."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/downloads
   tags: Images,Downloads
@@ -392,7 +389,7 @@ apis:
     a HTTP status code 200, along with the URI in the response body which can be used
     to download the image. \r\n\r\nClient Request:\r\n\r\n```\r\nhttps://api.gettyimages.com/v3/downloads/images/[asset_id]?auto_download=false\r\n```\r\n\r\nServer
     Response:\r\n\r\n```\r\nHTTP/1.1 200 OK\r\n{\r\n\t\"uri\": \"https://delivery.gettyimages.com/...\"\r\n}\r\n```"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/downloads/images/{id}
   tags: Images,Downloads
@@ -424,7 +421,7 @@ apis:
     a HTTP status code 200, along with the URI in the response body which can be used
     to download the video. \r\n\r\nClient Request:\r\n\r\n```\r\nhttps://api.gettyimages.com/v3/downloads/videos/[asset_id]?auto_download=false\r\n```\r\n\r\nServer
     Response:\r\n\r\n```\r\nHTTP/1.1 200 OK\r\n{\r\n\t\"uri\": \"https://delivery.gettyimages.com/...\"\r\n}\r\n```"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/downloads/videos/{id}
   tags: Images,Downloads,Videos
@@ -445,7 +442,7 @@ apis:
     week\". \r\n\r\nYou'll need an API key and access token to use this resource.
     Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
     page for more information on how to sign up for an API key."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/events
   tags: Images,Events
@@ -468,7 +465,7 @@ apis:
     week\". \r\n\r\nYou'll need an API key and access token to use this resource.
     Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)\r\npage
     for more information on how to sign up for an API key."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/events/{id}
   tags: Images,Events
@@ -519,7 +516,7 @@ apis:
     Request Usage Considerations\r\n\r\n- Specifying the \"entity_details\" response
     field can have significant performance implications. The field should be used
     only when necessary."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/images
   tags: Images
@@ -570,7 +567,7 @@ apis:
     Request Usage Considerations\r\n\r\n- Specifying the \"entity_details\" response
     field can have significant performance implications. The field should be used
     only when necessary."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/images/{id}
   tags: Images
@@ -620,7 +617,7 @@ apis:
     \r\n        [\r\n            {\r\n                \"name\": \"comp\"\r\n            },\r\n
     \           {\r\n                \"name\": \"preview\"\r\n            },\r\n            {\r\n
     \               \"name\": \"thumb\"\r\n            }\r\n        ]\r\n    ]\r\n}\r\n```"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/images/{id}/similar
   tags: Images,Similar
@@ -637,7 +634,7 @@ apis:
     results to images from a specific product.\r\n\r\nYou'll need an API key and access
     token to use this resource. Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)\r\npage
     for more information on how to sign up for an API key."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/products
   tags: Images,Products
@@ -654,7 +651,7 @@ apis:
     to learn more.\r\n\r\nYou'll need an API key and access token to use this resource.
     Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)\r\npage
     for more information on how to sign up for an API key."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/purchased-assets
   tags: Images,Purchases
@@ -671,7 +668,7 @@ apis:
     learn more.\r\n\r\nYou'll need an API key and access token to use this resource.
     Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)\r\npage
     for more information on how to sign up for an API key."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/purchased-images
   tags: Images,Purchases
@@ -702,7 +699,7 @@ apis:
     the header of your request.  Please consult our [Authorization FAQ](http://developers.gettyimages.com/en/authorization-faq.html)
     for more information on authorization tokens, and our [Authorization Workflows](https://github.com/gettyimages/gettyimages-api/blob/master/OAuth2Workflow.md)
     for code examples of getting a token."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/search/events
   tags: Images,Search
@@ -716,7 +713,7 @@ apis:
   description: Use this endpoint to search over a blend of our contemporary stock
     photos, illustrations, archival images, editorial photos, illustrations and archival
     images.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/search/images
   tags: Images,Search
@@ -773,7 +770,7 @@ apis:
     \r\n        [\r\n            {\r\n                \"name\": \"comp\"\r\n            },\r\n
     \           {\r\n                \"name\": \"preview\"\r\n            },\r\n            {\r\n
     \               \"name\": \"thumb\"\r\n            }\r\n        ]\r\n    ]\r\n}\r\n```"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/search/images/creative
   tags: Images,Search
@@ -795,7 +792,7 @@ apis:
     `image_url=https://search-by-image.s3.amazonaws.com/my-test-image.jpg`.\r\n\r\nSubsequent
     searches for the same image can be executed using the `image_fingerprint` that
     is returned by the inital search."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/search/images/creative/by-image
   tags: Images,Search
@@ -810,7 +807,7 @@ apis:
     and archival images.  Editorial images represent newsworthy events or illustrate
     matters of general interest, such as news, sport and entertainment and are generally
     intended for editorial use.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/search/images/editorial
   tags: Images,Search,Editorial
@@ -870,7 +867,7 @@ apis:
     \           }\r\n        ]\r\n    ]\r\n}\r\n```\r\n\r\n## Request Usage Considerations\r\n\r\n-
     Specifying the \"entity_details\" response field can have significant performance
     implications. The field should be used only when necessary."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/search/videos
   tags: Images,Search,Videos
@@ -926,7 +923,7 @@ apis:
     \       [\r\n            {\r\n                \"name\": \"comp\"\r\n            },\r\n
     \           {\r\n                \"name\": \"preview\"\r\n            },\r\n            {\r\n
     \               \"name\": \"thumb\"\r\n            }\r\n        ]\r\n    ]\r\n}\r\n```"
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/search/videos/creative
   tags: Images,Search,Videos
@@ -985,7 +982,7 @@ apis:
     \           }\r\n        ]\r\n    ]\r\n}\r\n```\r\n\r\n## Request Usage Considerations\r\n\r\n-
     Specifying the \"entity_details\" response field can have significant performance
     implications. The field should be used only when necessary."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/search/videos/editorial
   tags: Images,Search,Videos,Editoria
@@ -1005,7 +1002,7 @@ apis:
     access token to use this resource.\r\nPlease see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
     page for more information on how to sign up for an API key. \r\n\r\n\r\n_Note_:
     Date of use can be in any unambiguous date format."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/usage-batches/{id}
   tags: Images,Batches
@@ -1063,7 +1060,7 @@ apis:
     Request Usage Considerations\r\n\r\n- Specifying the \"entity_details\" response
     field can have significant performance implications. The field should be used
     only when necessary."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/videos
   tags: Images,Videos
@@ -1123,7 +1120,7 @@ apis:
     Request Usage Considerations\r\n\r\n- Specifying the \"entity_details\" response
     field can have significant performance implications. The field should be used
     only when necessary."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/videos/{id}
   tags: Images,Videos
@@ -1135,7 +1132,7 @@ apis:
 - name: Getty Images Get Similar Videos
   x-api-slug: getty-images
   description: Get videos similar to a video by supplying one video id
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com////v3/videos/{id}/similar
   tags: Images,Videos,Similiar
@@ -1146,13 +1143,10 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3videosidsimilar-get-openapi.md
 - name: Getty Images
   x-api-slug: getty-images
-  description: Getty Images, Inc. is an American stock photo agency, based in Seattle,
-    Washington, United States. It is a supplier of stock images for business and consumers
-    with an archive of 80 million still images and illustrations and more than 50,000
-    hours of stock film footage. It targets three markets&mdash;creative professionals
-    (advertising and graphic design), the media (print and online publishing), and
-    corporate (in-house design, marketing and communication departments).
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/getty-images.jpeg
+  description: Find high resolution royalty-free images, editorial stock photos, vector
+    art, video footage clips and stock music licensing at the richest image search
+    photo library online.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
   baseURL: https://api.gettyimages.com//
   tags: Getty Images
@@ -1164,14 +1158,22 @@ x-common:
   url: https://github.com/gettyimages/connect#authentication
 - type: x-base
   url: https://connect.gettyimages.com/
-- type: x-net-sdk
+- type: x--net-sdk
   url: https://github.com/gettyimages/connect_sdk_csharp
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/gettyimages
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/ge-tt
 - type: x-developer
   url: http://api.gettyimages.com/
 - type: x-documentation
   url: https://api.gettyimages.com/swagger/ui/index.html
+- type: x-email
+  url: privacy@gettyimages.com
+- type: x-email
+  url: sales@gettyimages.com
+- type: x-email
+  url: copyright@gettyimages.com
 - type: x-embeddable
   url: https://github.com/gettyimages/connect#oembed
 - type: x-forum
@@ -1182,7 +1184,7 @@ x-common:
   url: https://github.com/gettyimages
 - type: x-java-sdk
   url: https://github.com/gettyimages/connect_sdk_java
-- type: x-nodejs-sdk
+- type: x-node-js-sdk
   url: https://github.com/gettyimages/connect_sdk_nodejs
 - type: x-objectivec-sdk
   url: https://github.com/gettyimages/connect_sdk_objective-c

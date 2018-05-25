@@ -706,31 +706,29 @@ paths:
         description: Provide access token in the format of Bearer {token}
       - in: query
         name: auto_download
-        description: '                    Specifies whether to auto-download the image'
+        description: Specifies whether to auto-download the image
       - in: body
         name: download_details
-        description: '                    Additional information required from specific
-          customers when downloading'
+        description: Additional information required from specific customers when
+          downloading
         schema:
           $ref: '#/definitions/holder'
       - in: query
         name: file_type
-        description: '                    File Type expressed with three character
-          file extension'
+        description: File Type expressed with three character file extension
       - in: query
         name: height
-        description: '                    Specifies the pixel height of the particular
-          image to download'
+        description: Specifies the pixel height of the particular image to download
       - in: path
         name: id
-        description: '                    Id of image to download'
+        description: Id of image to download
       - in: query
         name: product_id
-        description: '                    Identifier of the instance for the selected
-          product offering type'
+        description: Identifier of the instance for the selected product offering
+          type
       - in: query
         name: product_type
-        description: '                    Product type'
+        description: Product type
       responses:
         200:
           description: OK
@@ -775,20 +773,20 @@ paths:
         description: Provide access token in the format of Bearer {token}
       - in: query
         name: auto_download
-        description: '                    Specifies whether to auto-download the video'
+        description: Specifies whether to auto-download the video
       - in: body
         name: download_details
-        description: '                    Additional information required from specific
-          customers when downloading'
+        description: Additional information required from specific customers when
+          downloading
         schema:
           $ref: '#/definitions/holder'
       - in: path
         name: id
-        description: '                    Id of video to download'
+        description: Id of video to download
       - in: query
         name: product_id
-        description: '                    Identifier of the instance for the selected
-          product offering type'
+        description: Identifier of the instance for the selected product offering
+          type
       - in: query
         name: size
         description: Specifies the size to be downloaded
