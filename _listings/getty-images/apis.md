@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty
 x-kinRank: "8"
 x-alexaRank: "1939"
 tags: Getty Images
-created: "2018-05-25"
-modified: "2018-05-25"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/apis.md
 specificationVersion: "0.14"
 apis:
@@ -1198,6 +1198,8 @@ x-common:
   url: https://twitter.com/GettyImages
 - type: x-website
   url: http://www.gettyimages.com/
+- type: x-website
+  url: http://gettyimages.com
 include: []
 maintainers:
 - FN: Kin Lane
