@@ -8,37 +8,41 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty
 x-kinRank: "8"
 x-alexaRank: "1939"
 tags: Getty Images
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Getty Images Search Artist Images
-  x-api-slug: getty-images
+- name: Getty Images - Search Artist Images
+  x-api-slug: v3artistsimages-get
   description: Search for images by a photographer
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/artists/images
-  tags: Images,Artists
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3artistsimages-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3artistsimages-get-openapi.md
-- name: Getty Images Search Artist ImaVideosges
-  x-api-slug: getty-images
+- name: Getty Images - Search Artist ImaVideosges
+  x-api-slug: v3artistsvideos-get
   description: Search for videos by a photographer
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/artists/videos
-  tags: Images,Artists,Videos
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3artistsvideos-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3artistsvideos-get-openapi.md
-- name: Getty Images Get Asset Change Notifications
-  x-api-slug: getty-images
+- name: Getty Images - Get Asset Change Notifications
+  x-api-slug: v3assetchangeschangesets-put
   description: "# Asset Changes\r\n\r\nGet notifications about new, updated or deleted
     assets.\r\n\r\n##  Quickstart\r\n\r\nYou'll need an API key and a [Resource Owner
     Grant](http://developers.gettyimages.com/en/authorization-faq.html) access token
@@ -51,15 +55,17 @@ apis:
     set up again."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/asset-changes/change-sets
-  tags: Images,Changes
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3assetchangeschangesets-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3assetchangeschangesets-put-openapi.md
-- name: Getty Images Get Asset Change Notification
-  x-api-slug: getty-images
+- name: Getty Images - Get Asset Change Notification
+  x-api-slug: v3assetchangeschangesetschangesetid-delete
   description: "# Delete Asset Changes\r\n\r\nConfirm asset changes acknowledges receipt
     of asset changes (from the PUT asset changes endpoint).\r\n\r\n##  Quickstart\r\n\r\nYou'll
     need an API key and a [Resource Owner Grant](http://developers.gettyimages.com/en/authorization-faq.html)
@@ -67,15 +73,17 @@ apis:
     page for more information on how to sign up for an API key."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/asset-changes/change-sets/{change-set-id}
-  tags: Images,Changes
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3assetchangeschangesetschangesetid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3assetchangeschangesetschangesetid-delete-openapi.md
-- name: Getty Images Get Asset Change Channels
-  x-api-slug: getty-images
+- name: Getty Images - Get Asset Change Channels
+  x-api-slug: v3assetchangeschannels-get
   description: "# Get Partner Channels\r\n\r\nRetrieves the channel data for the partner.
     This data can be used to populate the channel_id parameter in the Put Asset Changes
     query.\r\n\r\n##  Quickstart\r\n\r\nYou'll need an API key and a [Resource Owner
@@ -87,15 +95,17 @@ apis:
     to be set up again."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/asset-changes/channels
-  tags: Images,Changes
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3assetchangeschannels-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3assetchangeschannels-get-openapi.md
-- name: Getty Images Register Assets
-  x-api-slug: getty-images
+- name: Getty Images - Register Assets
+  x-api-slug: v3assetregistrations-post
   description: "# Register Assets\r\n\r\nRegisters a list of assets that a customer
     has stored in their system.\r\n\r\n##  Quickstart\r\n\r\nYou'll need an API key
     and a [Resource Owner Grant](http://developers.gettyimages.com/en/authorization-faq.html)
@@ -105,13 +115,15 @@ apis:
     response body."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/asset-registrations
-  tags: Images,Registrations
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3assetregistrations-post-openapi.md
-- name: Getty Images Get All Boards
-  x-api-slug: getty-images
+- name: Getty Images - Get All Boards
+  x-api-slug: v3boards-get
   description: "Boards are where you collect, curate, collaborate on and manage photo
     and video assets in one place. More information on the [Boards FAQ](http://www.gettyimages.com/boards/faq).
     Use this endpoint to retrieve all Boards available for a user.\r\n\r\nYou'll need
@@ -120,15 +132,17 @@ apis:
     page for more information on how to sign up for an API key."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/boards
-  tags: Images,Boards
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3boards-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3boards-get-openapi.md
-- name: Getty Images Create Board
-  x-api-slug: getty-images
+- name: Getty Images - Create Board
+  x-api-slug: v3boards-post
   description: "Boards are where you collect, curate, collaborate on and manage photo
     and video assets in one place. More information on the [Boards FAQ](http://www.gettyimages.com/boards/faq).
     Use this endpoint to create a Board by a specific id.\r\n\r\nYou'll need an API
@@ -141,13 +155,15 @@ apis:
     the data.*"
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/boards
-  tags: Images,Boards
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3boards-post-openapi.md
-- name: Getty Images Delete Board
-  x-api-slug: getty-images
+- name: Getty Images - Delete Board
+  x-api-slug: v3boardsboard-id-delete
   description: "Boards are where you collect, curate, collaborate on and manage photo
     and video assets in one place. More information on the [Boards FAQ](http://www.gettyimages.com/boards/faq).
     Use this endpoint to delete a Board by a specific id.\r\n\r\nYou'll need an API
@@ -156,15 +172,17 @@ apis:
     page for more information on how to sign up for an API key."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/boards/{board_id}
-  tags: Images,Boards
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3boardsboard-id-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3boardsboard-id-delete-openapi.md
-- name: Getty Images Get Board Assets
-  x-api-slug: getty-images
+- name: Getty Images - Get Board Assets
+  x-api-slug: v3boardsboard-id-get
   description: "Boards are where you collect, curate, collaborate on and manage photo
     and video assets in one place. More information on the [Boards FAQ](http://www.gettyimages.com/boards/faq).
     Use this endpoint to retrieve a Board by a specific id.\r\n\r\nYou'll need an
@@ -173,15 +191,17 @@ apis:
     page for more information on how to sign up for an API key."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/boards/{board_id}
-  tags: Images,Boards
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3boardsboard-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3boardsboard-id-get-openapi.md
-- name: Getty Images Update Board
-  x-api-slug: getty-images
+- name: Getty Images - Update Board
+  x-api-slug: v3boardsboard-id-put
   description: "Boards are where you collect, curate, collaborate on and manage photo
     and video assets in one place. More information on the [Boards FAQ](http://www.gettyimages.com/boards/faq).
     Use this endpoint to update a Board by a specific id.\r\n\r\nYou'll need an API
@@ -194,13 +214,15 @@ apis:
     the data.*"
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/boards/{board_id}
-  tags: Images,Boards
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3boardsboard-id-put-openapi.md
-- name: Getty Images Remove Assets From Board
-  x-api-slug: getty-images
+- name: Getty Images - Remove Assets From Board
+  x-api-slug: v3boardsboard-idassets-delete
   description: "Boards are where you collect, curate, collaborate on and manage photo
     and video assets in one place. More information on the [Boards FAQ](http://www.gettyimages.com/boards/faq).\r\nUse
     this endpoint to remove a set of assets from a board.\r\n\r\nYou'll need an API
@@ -209,15 +231,17 @@ apis:
     page for more information on how to sign up for an API key."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/boards/{board_id}/assets
-  tags: Images,Boards
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3boardsboard-idassets-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3boardsboard-idassets-delete-openapi.md
-- name: Getty Images Add Assets to a Board
-  x-api-slug: getty-images
+- name: Getty Images - Add Assets to a Board
+  x-api-slug: v3boardsboard-idassets-put
   description: "Boards are where you collect, curate, collaborate on and manage photo
     and video assets in one place. More information on the [Boards FAQ](http://www.gettyimages.com/boards/faq).\r\nUse
     this endpoint to add a set of assets to a board.\r\n\r\nYou'll need an API key
@@ -226,13 +250,15 @@ apis:
     page for more information on how to sign up for an API key."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/boards/{board_id}/assets
-  tags: Images,Boards
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3boardsboard-idassets-put-openapi.md
-- name: Getty Images Remove an asset from a board
-  x-api-slug: getty-images
+- name: Getty Images - Remove an asset from a board
+  x-api-slug: v3boardsboard-idassetsasset-id-delete
   description: "Boards are where you collect, curate, collaborate on and manage photo
     and video assets in one place. More information on the [Boards FAQ](http://www.gettyimages.com/boards/faq).
     Use this endpoint to remove an asset from a board.\r\n\r\nYou'll need an API key
@@ -241,15 +267,17 @@ apis:
     page for more information on how to sign up for an API key."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/boards/{board_id}/assets/{asset_id}
-  tags: Images,Boards
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3boardsboard-idassetsasset-id-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3boardsboard-idassetsasset-id-delete-openapi.md
-- name: Getty Images Add an asset to a board
-  x-api-slug: getty-images
+- name: Getty Images - Add an asset to a board
+  x-api-slug: v3boardsboard-idassetsasset-id-put
   description: "Boards are where you collect, curate, collaborate on and manage photo
     and video assets in one place.\r\nMore information on the [Boards FAQ](http://www.gettyimages.com/boards/faq).
     Use this endpoint to add an asset to a board.\r\n\r\nYou'll need an API key and
@@ -258,15 +286,17 @@ apis:
     page for more information on how to sign up for an API key."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/boards/{board_id}/assets/{asset_id}
-  tags: Images,Boards
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3boardsboard-idassetsasset-id-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3boardsboard-idassetsasset-id-put-openapi.md
-- name: Getty Images Get comments from a board
-  x-api-slug: getty-images
+- name: Getty Images - Get comments from a board
+  x-api-slug: v3boardsboard-idcomments-get
   description: "Boards are where you collect, curate, collaborate on and manage photo
     and video assets in one place. More information on the [Boards FAQ](http://www.gettyimages.com/boards/faq).
     Use this endpoint to retrieve all comments for a specific board.\r\n\r\nYou'll
@@ -275,15 +305,17 @@ apis:
     page for more information on how to sign up for an API key."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/boards/{board_id}/comments
-  tags: Images,Boards,Comments
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3boardsboard-idcomments-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3boardsboard-idcomments-get-openapi.md
-- name: Getty Images Add a comment to a board
-  x-api-slug: getty-images
+- name: Getty Images - Add a comment to a board
+  x-api-slug: v3boardsboard-idcomments-post
   description: "Boards are where you collect, curate, collaborate on and manage photo
     and video assets in one place. More information on the [Boards FAQ](http://www.gettyimages.com/boards/faq).\r\nUse
     this endpoint to add a comment to a board.\r\n\r\nYou'll need an API key and a
@@ -292,13 +324,15 @@ apis:
     page for more information on how to sign up for an API key."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/boards/{board_id}/comments
-  tags: Images,Boards,Comments
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3boardsboard-idcomments-post-openapi.md
-- name: Getty Images Delete a comment from a board
-  x-api-slug: getty-images
+- name: Getty Images - Delete a comment from a board
+  x-api-slug: v3boardsboard-idcommentscomment-id-delete
   description: "Boards are where you collect, curate, collaborate on and manage photo
     and video assets in one place. More information on the [Boards FAQ](http://www.gettyimages.com/boards/faq).\r\nUse
     this endpoint to delete a comment from a board.\r\n\r\nYou'll need an API key
@@ -307,15 +341,17 @@ apis:
     page for more information on how to sign up for an API key."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/boards/{board_id}/comments/{comment_id}
-  tags: Images,Boards,Comments
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3boardsboard-idcommentscomment-id-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3boardsboard-idcommentscomment-id-delete-openapi.md
-- name: Getty Images Get Collections
-  x-api-slug: getty-images
+- name: Getty Images - Get Collections
+  x-api-slug: v3collections-get
   description: "Use this endpoint to retrieve collections associated with your Getty
     Images account. To browse available collections see our [Image collections page](
     http://www.gettyimages.com/creative-images/collections).\r\n\r\nYou'll need an
@@ -323,30 +359,34 @@ apis:
     page for more information on how to sign up for an API key."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/collections
-  tags: Images,Collections
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3collections-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3collections-get-openapi.md
-- name: Getty Images Get Countries
-  x-api-slug: getty-images
+- name: Getty Images - Get Countries
+  x-api-slug: v3countries-get
   description: "Returns a list of country objects that contains country name, two
     letter ISO abbreviation and three letter ISO abbreviation.\r\n\r\nYou'll need
     an API key and access token to use this resource. Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
     page for more information on how to sign up for an API key."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/countries
-  tags: Images,Countries
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3countries-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3countries-get-openapi.md
-- name: Getty Images Get Downloads
-  x-api-slug: getty-images
+- name: Getty Images - Get Downloads
+  x-api-slug: v3downloads-get
   description: "Returns information about a customer's previously downloaded assets.\r\n\r\nYou'll
     need an API key and access token to use this resource. Please see our [Getting
     Started](http://developers.gettyimages.com/en/getting-started.html) page for more
@@ -357,15 +397,17 @@ apis:
     for more information on authorization tokens."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/downloads
-  tags: Images,Downloads
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3downloads-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3downloads-get-openapi.md
-- name: Getty Images Download an image
-  x-api-slug: getty-images
+- name: Getty Images - Download an image
+  x-api-slug: v3downloadsimagesid-post
   description: "Use this endpoint to generate download URLs and related data for images
     you are authorized to download.\r\n\r\nMost product offerings have enforced periodic
     download limits such as monthly, weekly, and daily. When this operation executes,
@@ -379,8 +421,8 @@ apis:
     page for more information on how to sign up for an API key. \r\n\r\n## Auto Downloads\r\nThe
     `auto_download` request query parameter specifies whether to automatically download
     the image.\r\n\r\nIf the `auto_download` request query parameter is set to _true_,
-    the API will return an HTTP status code 303 *See Other*.\u2002Your client code
-    will need to process this response and redirect to the URI specified in the *Location*
+    the API will return an HTTP status code 303 *See Other*.???Your client code will
+    need to process this response and redirect to the URI specified in the *Location*
     header to enable you to automatically download the file. The redirection workflow
     follows the [HTTP 1.1 protocol](https://tools.ietf.org/html/rfc7231#section-6.4.4).\r\n\r\nClient
     Request:\r\n\r\n```\r\nhttps://api.gettyimages.com/v3/downloads/images/[asset_id]?auto_download=true\r\n```\r\n\r\nServer
@@ -391,13 +433,15 @@ apis:
     Response:\r\n\r\n```\r\nHTTP/1.1 200 OK\r\n{\r\n\t\"uri\": \"https://delivery.gettyimages.com/...\"\r\n}\r\n```"
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/downloads/images/{id}
-  tags: Images,Downloads
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3downloadsimagesid-post-openapi.md
-- name: Getty Images Download a video
-  x-api-slug: getty-images
+- name: Getty Images - Download a video
+  x-api-slug: v3downloadsvideosid-post
   description: "Use this endpoint to generate download URLs and related data for videos
     you are authorized to download.\r\n\r\nMost product offerings have enforced periodic
     download limits such as monthly, weekly, and daily. When this operation executes,
@@ -411,8 +455,8 @@ apis:
     page for more information on how to sign up for an API key. \r\n\r\n## Auto Downloads\r\nThe
     `auto_download` request query parameter specifies whether to automatically download
     the video.\r\n\r\nIf the `auto_download` request query parameter is set to _true_,
-    the API will return an HTTP status code 303 *See Other*.\u2002Your client code
-    will need to process this response and redirect to the URI specified in the *Location*
+    the API will return an HTTP status code 303 *See Other*.???Your client code will
+    need to process this response and redirect to the URI specified in the *Location*
     header to enable you to automatically download the file. The redirection workflow
     follows the [HTTP 1.1 protocol](https://tools.ietf.org/html/rfc7231#section-6.4.4).\r\n\r\nClient
     Request:\r\n\r\n```\r\nhttps://api.gettyimages.com/v3/downloads/videos/[asset_id]?auto_download=true\r\n```\r\n\r\nServer
@@ -423,13 +467,15 @@ apis:
     Response:\r\n\r\n```\r\nHTTP/1.1 200 OK\r\n{\r\n\t\"uri\": \"https://delivery.gettyimages.com/...\"\r\n}\r\n```"
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/downloads/videos/{id}
-  tags: Images,Downloads,Videos
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3downloadsvideosid-post-openapi.md
-- name: Getty Images Get metadata for multiple events
-  x-api-slug: getty-images
+- name: Getty Images - Get metadata for multiple events
+  x-api-slug: v3events-get
   description: "This endpoint returns the detailed event metadata for all specified
     events. Getty Images news, sports and entertainment photographers and\r\nvideographers
     cover editorially relevant events occurring around the world.  All images or video
@@ -444,15 +490,17 @@ apis:
     page for more information on how to sign up for an API key."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/events
-  tags: Images,Events
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3events-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3events-get-openapi.md
-- name: Getty Images Get metadata for a single event
-  x-api-slug: getty-images
+- name: Getty Images - Get metadata for a single event
+  x-api-slug: v3eventsid-get
   description: "This endpoint returns the detailed event metadata for a specified
     event. Getty Images news, sports and entertainment \r\nphotographers and videographers
     cover editorially relevant events occurring around the world.  \r\nAll images
@@ -467,15 +515,17 @@ apis:
     for more information on how to sign up for an API key."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/events/{id}
-  tags: Images,Events
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3eventsid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3eventsid-get-openapi.md
-- name: Getty Images Get Images
-  x-api-slug: getty-images
+- name: Getty Images - Get Images
+  x-api-slug: v3images-get
   description: "This endpoint returns the detailed image metadata for all specified
     images. Due to a wide variety of available image resolutions,\r\nthe images are
     grouped into a handful of size categories for simplicity. \r\n\r\nYou'll need
@@ -518,15 +568,17 @@ apis:
     only when necessary."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/images
-  tags: Images
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3images-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3images-get-openapi.md
-- name: Getty Images Get Image
-  x-api-slug: getty-images
+- name: Getty Images - Get Image
+  x-api-slug: v3imagesid-get
   description: "This endpoint returns the detailed image metadata for a specified
     image. Due to a wide variety of available image resolutions, \r\nthe images are
     grouped into a handful of size categories for simplicity. \r\n\r\nYou'll need
@@ -569,15 +621,17 @@ apis:
     only when necessary."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/images/{id}
-  tags: Images
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3imagesid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3imagesid-get-openapi.md
-- name: Getty Images Search Similar Images
-  x-api-slug: getty-images
+- name: Getty Images - Search Similar Images
+  x-api-slug: v3imagesidsimilar-get
   description: "This endpoint will search our asset database for images similar to
     the specified asset id. Due to a wide variety of available \r\nimage resolutions,
     the images are grouped into a handful of size categories for simplicity. \r\n\r\nYou'll
@@ -619,15 +673,17 @@ apis:
     \               \"name\": \"thumb\"\r\n            }\r\n        ]\r\n    ]\r\n}\r\n```"
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/images/{id}/similar
-  tags: Images,Similar
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3imagesidsimilar-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3imagesidsimilar-get-openapi.md
-- name: Getty Images Get Products
-  x-api-slug: getty-images
+- name: Getty Images - Get Products
+  x-api-slug: v3products-get
   description: "This endpoint returns all products available to the username used
     during authentication. As such, this endpoint requires the use of\r\na fully authorized
     access_token. The product data can then be used as search filters, restricting
@@ -636,15 +692,17 @@ apis:
     for more information on how to sign up for an API key."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/products
-  tags: Images,Products
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3products-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3products-get-openapi.md
-- name: Getty Images Get Purchased Images
-  x-api-slug: getty-images
+- name: Getty Images - Get Purchased Images
+  x-api-slug: v3purchasedassets-get
   description: "This endpoint returns a list of all assets purchased on gettyimages.com
     by the username used for authentication. \r\nUse of this endpoint requires configuration
     changes to your API key. \r\nPlease contact [developersupport@gettyimages.com](mailto:developersupport@gettyimages.com)
@@ -653,15 +711,17 @@ apis:
     for more information on how to sign up for an API key."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/purchased-assets
-  tags: Images,Purchases
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3purchasedassets-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3purchasedassets-get-openapi.md
-- name: Getty Images Get Previously Purchased Images
-  x-api-slug: getty-images
+- name: Getty Images - Get Previously Purchased Images
+  x-api-slug: v3purchasedimages-get
   description: "This endpoint returns a list of all images purchased on gettyimages.com
     by the username used for authentication.\r\nUse of this endpoint requires configuration
     changes to your API key. Please contact [developersupport@gettyimages.com](mailto:developersupport@gettyimages.com)\r\nto
@@ -670,15 +730,17 @@ apis:
     for more information on how to sign up for an API key."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/purchased-images
-  tags: Images,Purchases
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3purchasedimages-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3purchasedimages-get-openapi.md
-- name: Getty Images Search for events
-  x-api-slug: getty-images
+- name: Getty Images - Search for events
+  x-api-slug: v3searchevents-get
   description: "Use this endpoint to search Getty Images news, sports and entertainment
     events. Getty Images photographers and videographers cover editorially relevant
     events occurring around the world.  All images or video clips produced in association
@@ -701,29 +763,33 @@ apis:
     for code examples of getting a token."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/search/events
-  tags: Images,Search
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3searchevents-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3searchevents-get-openapi.md
-- name: Getty Images Search Images
-  x-api-slug: getty-images
+- name: Getty Images - Search Images
+  x-api-slug: v3searchimages-get
   description: Use this endpoint to search over a blend of our contemporary stock
     photos, illustrations, archival images, editorial photos, illustrations and archival
     images.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/search/images
-  tags: Images,Search
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3searchimages-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3searchimages-get-openapi.md
-- name: Getty Images Search for creative images only
-  x-api-slug: getty-images
+- name: Getty Images - Search for creative images only
+  x-api-slug: v3searchimagescreative-get
   description: "Use this endpoint to search our contemporary stock photos, illustrations
     and archival images.\r\n\r\nYou'll need an API key and access token to use this
     resource. Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
@@ -772,15 +838,17 @@ apis:
     \               \"name\": \"thumb\"\r\n            }\r\n        ]\r\n    ]\r\n}\r\n```"
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/search/images/creative
-  tags: Images,Search
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3searchimagescreative-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3searchimagescreative-get-openapi.md
-- name: Getty Images Search Images by Image
-  x-api-slug: getty-images
+- name: Getty Images - Search Images by Image
+  x-api-slug: v3searchimagescreativebyimage-get
   description: "Allows searching for similar creative images by passing the URL to
     an existing image.\r\n\r\nBefore calling the search by image endpoint, an image
     must be uploaded to a specific AWS S3 bucket. The bucket name is `search-by-image.s3.amazonaws.com`.\r\nFor
@@ -794,30 +862,34 @@ apis:
     is returned by the inital search."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/search/images/creative/by-image
-  tags: Images,Search
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3searchimagescreativebyimage-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3searchimagescreativebyimage-get-openapi.md
-- name: Getty Images Search Editorial Images
-  x-api-slug: getty-images
+- name: Getty Images - Search Editorial Images
+  x-api-slug: v3searchimageseditorial-get
   description: Use this endpoint to search our editorial stock photos, illustrations
     and archival images.  Editorial images represent newsworthy events or illustrate
     matters of general interest, such as news, sport and entertainment and are generally
     intended for editorial use.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/search/images/editorial
-  tags: Images,Search,Editorial
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3searchimageseditorial-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3searchimageseditorial-get-openapi.md
-- name: Getty Images Search Editorial Videos
-  x-api-slug: getty-images
+- name: Getty Images - Search Editorial Videos
+  x-api-slug: v3searchvideos-get
   description: "Use this endpoint to search over a blend of our premium stock, contemporary
     4K and HD footage, celebrities, news, newsmakers, entertainment, events and archival
     videos.\r\n\r\nYou'll need an API key and access token to use this resource. Please
@@ -869,15 +941,17 @@ apis:
     implications. The field should be used only when necessary."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/search/videos
-  tags: Images,Search,Videos
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3searchvideos-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3searchvideos-get-openapi.md
-- name: Getty Images Search for creative videos
-  x-api-slug: getty-images
+- name: Getty Images - Search for creative videos
+  x-api-slug: v3searchvideoscreative-get
   description: "Use this endpoint to search premium stock video, from archival film
     to contemporary 4K and HD footage.\r\n\r\nYou'll need an API key and access token
     to use this resource. Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)\r\npage
@@ -925,15 +999,17 @@ apis:
     \               \"name\": \"thumb\"\r\n            }\r\n        ]\r\n    ]\r\n}\r\n```"
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/search/videos/creative
-  tags: Images,Search,Videos
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3searchvideoscreative-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3searchvideoscreative-get-openapi.md
-- name: Getty Images Search for editorial videos
-  x-api-slug: getty-images
+- name: Getty Images - Search for editorial videos
+  x-api-slug: v3searchvideoseditorial-get
   description: "Use this endpoint to search current and archival video clips of celebrities,
     newsmakers, and events.\r\n\r\nYou'll need an API key and access token to use
     this resource. Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
@@ -984,15 +1060,17 @@ apis:
     implications. The field should be used only when necessary."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/search/videos/editorial
-  tags: Images,Search,Videos,Editoria
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3searchvideoseditorial-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3searchvideoseditorial-get-openapi.md
-- name: Getty Images Reports Usage Batches
-  x-api-slug: getty-images
+- name: Getty Images - Reports Usage Batches
+  x-api-slug: v3usagebatchesid-put
   description: "# Report Usage\r\n\r\nUse this endpoint to report the usages of a
     set of assets. The count of assets submitted in a single batch to this endpoint
     is limited to 1000. Note that all asset Ids specified must be valid or the operation
@@ -1004,13 +1082,15 @@ apis:
     Date of use can be in any unambiguous date format."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/usage-batches/{id}
-  tags: Images,Batches
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3usagebatchesid-put-openapi.md
-- name: Getty Images Get Videos Metadatata
-  x-api-slug: getty-images
+- name: Getty Images - Get Videos Metadatata
+  x-api-slug: v3videos-get
   description: "Use this endpoint to return detailed video metadata for all the specified
     video ids.\r\n\r\nYou'll need an API key and access token to use this resource.
     Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
@@ -1062,15 +1142,17 @@ apis:
     only when necessary."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/videos
-  tags: Images,Videos
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3videos-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3videos-get-openapi.md
-- name: Getty Images Get Video Metadatata
-  x-api-slug: getty-images
+- name: Getty Images - Get Video Metadatata
+  x-api-slug: v3videosid-get
   description: "Use this endpoint to return detailed video metadata for the specified
     video id.\r\n\r\nYou'll need an API key and access token to use this resource.
     Please see our [Getting Started](http://developers.gettyimages.com/en/getting-started.html)
@@ -1122,38 +1204,34 @@ apis:
     only when necessary."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/videos/{id}
-  tags: Images,Videos
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3videosid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3videosid-get-openapi.md
-- name: Getty Images Get Similar Videos
-  x-api-slug: getty-images
+- name: Getty Images - Get Similar Videos
+  x-api-slug: v3videosidsimilar-get
   description: Get videos similar to a video by supplying one video id
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
   humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com////v3/videos/{id}/similar
-  tags: Images,Videos,Similiar
+  baseURL: https://api.gettyimages.com//
+  tags: Images, Stack Network, Videos, Photos, Getting Started Example, Media, internet,
+    Technology, Marketplace, API Provider, Stocks, Photos, Photos, Photos, Profiles,
+    Publish, General Data, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3videosidsimilar-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/v3videosidsimilar-get-openapi.md
-- name: Getty Images
-  x-api-slug: getty-images
-  description: Find high resolution royalty-free images, editorial stock photos, vector
-    art, video footage clips and stock music licensing at the richest image search
-    photo library online.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg
-  humanURL: http://www.gettyimages.com/
-  baseURL: https://api.gettyimages.com//
-  tags: Getty Images
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://getstream.io.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://getty.images.stack.network
 - type: x-authentication
   url: https://github.com/gettyimages/connect#authentication
 - type: x-base

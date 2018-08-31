@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Getty Images",
+	"description": "This is a repository of getty images APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/getty-images.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://getty-images.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Getty Images",
+			"x-api-slug": "getty-images",
+			"description": "Find high resolution royalty-free images, editorial stock photos, vector art, video footage clips and stock music licensing at the richest image search photo library online.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1013-getty-images.jpg",
+			"humanURL": "http://www.gettyimages.com/",
+			"baseURL": "https://api.gettyimages.com//",
+			"tags": "Getty Images",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Getty Images",
+	"include": [
+		{
+			"name": "Getty Images",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/getty-images/master/_listings/getty-images/apis.yaml"
+		}
+	]
+}
